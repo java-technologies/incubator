@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  penny-auction-service:
+  - apiVersion: v1
+    appVersion: develop
+    created: 2018-10-21T20:29:57.2598129+03:00
+    description: Penny Auction service Helm chart
+    digest: aa34a81027a11934ef558fffa32393f5201353ae2a81640591e8ca543d0f5adf
+    name: penny-auction-service
+    urls:
+    - https://java-technologies.github.io/incubator/penny-auction-service-0.0.1.tgz
+    version: 0.0.1
+generated: 2018-10-21T20:29:57.2598129+03:00
