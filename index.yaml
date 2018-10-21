@@ -1,32 +1,37 @@
 apiVersion: v1
 entries:
-  keycloak:
+  penny-auction-idp:
   - appVersion: 4.5.0
-    created: 2018-10-21T21:09:01.7283836+03:00
-    description: Open Source Identity and Access Management For Modern Applications
-      and Services
-    digest: a726e5b078d71da07e3fe1561d24f542c4f430aa1364588abde7912065845291
+    created: 2018-10-21T21:49:20.9876841+03:00
+    description: Penny Auction Identity Provider for SSO
+    digest: 31b48e535c1a247febc55a0d83e874a2eed797eab8f1d3ceb9d09e78a682d82b
     keywords:
     - sso
-    - idm
+    - idp
     - openid connect
-    - saml
-    - kerberos
-    - ldap
-    name: keycloak
+    name: penny-auction-idp
     sources:
     - https://github.com/jboss-dockerfiles/keycloak
     urls:
-    - https://java-technologies.github.io/incubator/keycloak-4.0.0.tgz
+    - https://java-technologies.github.io/incubator/penny-auction-idp-4.0.0.tgz
     version: 4.0.0
   penny-auction-service:
   - apiVersion: v1
     appVersion: develop
-    created: 2018-10-21T21:09:01.7283836+03:00
+    created: 2018-10-21T21:49:20.9886601+03:00
+    description: Penny Auction Java Back-end Service
+    digest: 6ec60c1433dc6d3ba106f09ae60872a3a303c69ca92ff6a441f2305ce8dd2799
+    name: penny-auction-service
+    urls:
+    - https://java-technologies.github.io/incubator/penny-auction-service-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    appVersion: develop
+    created: 2018-10-21T21:49:20.9876841+03:00
     description: Penny Auction service Helm chart
     digest: aa34a81027a11934ef558fffa32393f5201353ae2a81640591e8ca543d0f5adf
     name: penny-auction-service
     urls:
     - https://java-technologies.github.io/incubator/penny-auction-service-0.0.1.tgz
     version: 0.0.1
-generated: 2018-10-21T21:09:01.7264315+03:00
+generated: 2018-10-21T21:49:20.986708+03:00
